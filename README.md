@@ -1,15 +1,13 @@
 #Proof of Click URL Shortner
 
+
 URL Shortener with Blockchain Integration
 This project is a URL shortener web application built using Flask, Web3 (for Ethereum integration), and TinyURL's API. It allows users to shorten URLs and tracks the clicks on those URLs using a smart contract deployed on the Ethereum blockchain.
-
-
 Features
 
 URL Shortening: Use TinyURL to shorten long URLs.
 Click Tracking: Every time a shortened URL is clicked, the event is recorded on the Ethereum blockchain using a smart contract.
 Blockchain Integration: Ethereum-based smart contract records each click to ensure transparency and traceability.
-
 
 Technologies Used
 
@@ -19,7 +17,6 @@ TinyURL API: Used to shorten long URLs.
 HTML/CSS: For the frontend design.
 Ethereum Smart Contract: Records the URL click events on the blockchain.
 
-
 Prerequisites
 Before running the project, ensure you have the following installed:
 
@@ -27,7 +24,6 @@ Python 3.x: Install it from python.org.
 Node.js and npm (for Ethereum-related interactions) if you're setting up the Web3 provider yourself.
 An Ethereum Wallet (like MetaMask) for signing transactions.
 An Ethereum node (via Infura or a similar service) for interacting with the Ethereum blockchain.
-
 
 Setup Instructions
 Step 1: Clone the Repository
@@ -90,10 +86,8 @@ Step 7: View Blockchain Transactions
 You can use a blockchain explorer (e.g., Etherscan) to view the transactions and track the click counts associated with each short URL.
 Important Notes
 
-
 Security Warning: Never expose your private key in the code or any public repository. In production, use secure storage methods (like environment variables) for sensitive information.
 The contract is set to interact with the Ethereum Mainnet (chainId: 1), but you can change it to another testnet like Goerli or Ropsten by adjusting the chainId in the app.py file.
-
 
 Future Improvements
 
