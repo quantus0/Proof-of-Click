@@ -1,5 +1,4 @@
-#Proof of Click URL Shortner
-
+# Proof of Click URL Shortner
 
 URL Shortener with Blockchain Integration
 This project is a URL shortener web application built using Flask, Web3 (for Ethereum integration), and TinyURL's API. It allows users to shorten URLs and tracks the clicks on those URLs using a smart contract deployed on the Ethereum blockchain.
@@ -76,6 +75,7 @@ Make sure everything is set up properly, then run the Flask app:
 python app.py
 
 The application should now be accessible at http://127.0.0.1:5000/.
+
 Step 6: Test the Application
 
 Open the URL shortener web app in your browser.
