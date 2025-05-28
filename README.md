@@ -26,7 +26,7 @@ An Ethereum node (via Infura or a similar service) for interacting with the Ethe
 
 Setup Instructions
 Step 1: Clone the Repository
-git clone https://github.com/yourusername/short-url.git
+git clone https://github.com/quantus0/Proof-of-Click.git
 cd short-url
 
 Step 2: Install Dependencies
